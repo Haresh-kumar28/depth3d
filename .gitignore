@@ -1,0 +1,35 @@
+# Python
+backend/.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Environment / IDE
+.env
+.env.*
+.idea/
+
+# Model weights
+models/*
+!models/.gitkeep
+
+# Generated DepthWizard outputs
+data/outputs/
+data/reference/
+data/*.glb
+data/*.tif
+data/*.png
+data/*.npy
+data/*.npz
+data/*.jpg
+data/*.jpeg
+data/*.ply
+data/*.obj
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
